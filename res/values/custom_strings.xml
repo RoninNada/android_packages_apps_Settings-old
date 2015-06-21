@@ -33,6 +33,10 @@
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
     <string name="local_backup_password_title">Desktop backup password</string>
 
+    <!-- Battery stats -->
+    <string name="menu_stats_reset">Reset stats</string>
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+
     <!-- Security Settings screen Encryption and crendential summary -->
     <string name="encryption_and_credential_settings_summary_disabled" product="default">Phone is not encrypted</string>
 
