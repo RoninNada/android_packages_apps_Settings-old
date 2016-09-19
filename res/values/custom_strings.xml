@@ -22,5 +22,9 @@
     <string name="custom_settings_title">Extensions</string>
     <string name="custom_settings_summary">Additional Settings</string>
 
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor version</string>
+    <string name="vendor_version_default">Unknown</string>
+
 </resources>
 
