@@ -45,5 +45,11 @@
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 
+    <!-- Security Settings screen Encryption and crendential summary -->
+    <string name="encryption_and_credential_settings_summary_disabled" product="default">Phone is not encrypted</string>
+
+    <!-- Security Settings screen Encryption and crendential summary -->
+    <string name="encryption_and_credential_settings_summary_disabled" product="tablet">Device is not encrypted</string>
+
 </resources>
 
