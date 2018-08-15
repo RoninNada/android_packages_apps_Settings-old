@@ -135,6 +135,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.custom.settings.CustomSettings;
 import com.custom.settings.fragments.NavBar;
 import com.custom.settings.navbar.Fling;
+import com.custom.settings.fragments.navbar.PieSettings;
 import com.custom.settings.navbar.Pulse;
 import com.custom.settings.navbar.Smartbar;
 
