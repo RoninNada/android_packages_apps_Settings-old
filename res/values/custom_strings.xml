@@ -26,12 +26,6 @@
     <string name="vendor_version">Vendor version</string>
     <string name="vendor_version_default">Unknown</string>
 
-    <!-- Default USB configuration -->
-    <string name="select_default_usb_configuration_title">Select default USB configuration</string>
-    <string name="select_default_usb_configuration_dialog_title">Select USB Configuration</string>
-    <string name="default_usb_configuration" translatable="false" >default</string>
-    <string name="select_usb_default_confguration_warning">WARNING: Default USB configuration is enabled also when device is locked!\n\nDo you really want to enable this configuration?</string>
-
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
