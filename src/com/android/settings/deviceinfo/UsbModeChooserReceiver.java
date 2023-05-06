@@ -19,13 +19,11 @@ package com.android.settings.deviceinfo;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
-import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.hardware.usb.UsbManager;
 import android.os.SystemProperties;
 import android.os.UserHandle;
-import android.provider.Settings;
 
 import android.util.Log;
 
@@ -51,10 +49,8 @@ public class UsbModeChooserReceiver extends BroadcastReceiver {
 
         boolean mAutoModeEnabled = Settings.System.getIntForUser(context.getContentResolver(),
                 Settings.System.AUTO_USB_MODE_CHOOSER, 0, UserHandle.USER_CURRENT) == 1;
-        boolean showdialog = Settings.System.getInt(context.getContentResolver(),
-                Settings.System.SHOW_USB_MODE_DIALOG, 0) == 1;
 
-        if(action != null && showdialog) {
+        if(action != null) {
             if (UsbManager.ACTION_USB_STATE.equals(action)) {
                 boolean plugged = intent.getBooleanExtra(UsbManager.USB_CONNECTED, false);
                 boolean configured = intent.getBooleanExtra(UsbManager.USB_CONFIGURED, false);
